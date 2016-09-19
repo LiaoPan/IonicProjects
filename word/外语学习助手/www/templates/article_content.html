@@ -1,0 +1,21 @@
+<div ng-controller="MyCtrl">
+
+<ion-view title="article_content" id="page10">
+    <ion-content padding="true" class="has-header">
+
+<ion-refresher on-refresh="doRefresh()">
+                     
+      </ion-refresher>
+      <ion-list>
+        <ion-item ng-repeat="item in items">{{item}}</ion-item>
+      </ion-list>
+
+
+
+    </ion-content>
+
+	
+
+</ion-view>
+
+</div>
